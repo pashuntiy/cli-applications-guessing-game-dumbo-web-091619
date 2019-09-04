@@ -11,5 +11,3 @@ def run_guessing_game
     puts "Goodby!"
   end
 end
-
-run_guessing_game
