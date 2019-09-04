@@ -1,5 +1,5 @@
 def run_guessing_game
-  computer_guess = rand(6) + 1
+  computer_guess = rand(1..6) + 1
   user_guess = gets.chomp
   
   if user_guess.to_i == computer_guess
